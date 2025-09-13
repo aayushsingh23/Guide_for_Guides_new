@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Razorpay Payment Gateway Integration</title>
+  </head>
+  <img src="logo.jpg" alt="logo" width="200" height="150" href="index.html">
+    <div class="form_form"><form method="POST" action="charge.php">
+      <input class="name1" type="text" name="name" placeholder="Enter Name" required />
+      <input type="email" name="email" placeholder="Enter Email" required />
+      <script
+        src="https://checkout.razorpay.com/v1/checkout.js"
+        data-key="rzp_test_LWG5h7zu8fTgSQ"
+        data-amount="500"
+        data-currency="INR"
+        data-name="Razorpay Payment Gateway Integration"
+        data-description="Test payment gateway integration"
+        data-image="https://example.com/logo.png"
+        data-prefill.name=""
+        data-prefill.email=""
+        data-theme.color="#F37254"
+      ></script>
+      <input type="submit" value="Pay Now" name="submit" />
+    </form></div>
+    <style>
+      .form_form{
+        text-align: center;
+      }
+    </style>
+  </body>
+</html>

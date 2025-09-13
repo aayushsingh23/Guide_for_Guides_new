@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Test and Build",
+			"type": "shell",
+			"command": "npm run build && npm run start",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Build and Start",
+			"type": "shell",
+			"command": "npm run build; if ($?) { npm run start }",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

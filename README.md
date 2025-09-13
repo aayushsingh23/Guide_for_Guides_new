@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Guide-for-Guides - Next.js Migration
 
-## Getting Started
+A modern Next.js-based travel website for connecting travelers with local guides. Successfully migrated from a basic HTML/CSS/JavaScript project to a production-ready Next.js application deployable on Vercel.
 
-First, run the development server:
+## 🌟 Features
+
+- **Home Page**: Hero section with call-to-action, about section, FAQs, and footer
+- **Guide Directory**: Browse available travel guides with their specialties and contact options
+- **User Authentication**: Sign up and login pages for travelers
+- **Guide Registration**: Dedicated signup page for travel guides
+- **Payment Integration**: Payment gateway for accessing guide contact details
+- **Responsive Design**: Works seamlessly across devices
+- **SEO Optimized**: Proper metadata and Next.js optimizations
+
+## 🚀 Quick Start
+
+### Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to view the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+Guide_for_Guides_new/
+├── public/
+│   ├── assets/                 # Migrated Webflow assets
+│   ├── original/              # Original HTML files (reference)
+│   └── logo.jpg               # Site logo
+├── src/
+│   ├── app/
+│   │   ├── directory/         # Guide directory page
+│   │   ├── login/             # User login page
+│   │   ├── payment/           # Payment gateway page
+│   │   ├── signup/            # User signup page
+│   │   ├── signup-guide/      # Guide registration page
+│   │   ├── globals.css        # Global styles
+│   │   ├── layout.js          # Root layout with metadata
+│   │   └── page.js            # Home page
+│   └── styles/
+│       └── webflow.css        # Migrated Webflow styles
+├── package.json
+└── README.md
+```
 
-## Learn More
+## 🔧 Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: Next.js 15.5.3 with App Router
+- **Language**: JavaScript (ES6+)
+- **Styling**: CSS with styled-jsx + Tailwind CSS
+- **Fonts**: Google Fonts (Montserrat)
+- **Images**: Next.js Image optimization
+- **Deployment**: Vercel-ready
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚢 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Deploy to Vercel (Recommended)
 
-## Deploy on Vercel
+1. **Connect to Vercel:**
+   - Push code to GitHub repository
+   - Import project in Vercel dashboard
+   - Deploy automatically
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Manual Deployment:**
+   ```bash
+   # Install Vercel CLI
+   npm i -g vercel
+   
+   # Deploy to Vercel
+   vercel
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎯 Pages Overview
+
+- **/** - Homepage with hero section, about, and FAQs
+- **/directory** - Browse available travel guides
+- **/login** - User authentication
+- **/signup** - User registration
+- **/signup-guide** - Guide registration
+- **/payment** - Payment gateway for premium features
+
+## 🔗 Original Project
+
+This project was migrated from a basic HTML/CSS/JS website created during **HACKOWASP 5.0** at Thapar Institute of Engineering and Technology.
+
+**Original Team:**
+1. Uttkarsh Singh Pathania (Team Leader)
+2. Devansh
+3. Siddhant Mathur
+4. Aayush Singh
+5. Abhimanyu Kumar
+
+---
+
+**Built with ❤️ using Next.js and ready for Vercel deployment**

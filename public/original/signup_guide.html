@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="logo.jpg">
+	<div class="container">
+		<h1>Join the platform as a Guide</h1>
+		<form>
+			<label for="Full Name">Name:</label>
+			<input type="text" id="username" placeholder="Enter full name" name="username" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" placeholder="Enter your work email" name="email" required>
+
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" placeholder="Enter desired password" required>
+
+			<label for="confirm-password">Confirm Password:</label>
+			<input type="password" id="confirm-password" name="confirm-password" required>
+
+			<input type="submit" value="JOIN">
+		</form>
+	</div>
+  <style>
+    body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+.container {
+	background-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	margin: auto;
+	margin-top: 50px;
+	max-width: 500px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+  border-color: #eb4c60;
+}
+
+input[type="submit"] {
+	background-color: #eb4c60;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+input[type="submit"]:hover {
+	background-color: black;
+}
+
+</style>
+</body>
+</html>
