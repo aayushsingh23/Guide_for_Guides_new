@@ -3,9 +3,9 @@
 import Link from "next/link";
 
 export default function Signup() {
-  return (
-    <>
-      <style jsx>{`
+    return (
+        <>
+            <style jsx>{`
         body {
           font-family: Arial, sans-serif;
           background-color: #f2f2f2;
@@ -74,30 +74,30 @@ export default function Signup() {
         }
       `}</style>
 
-      <div className="container">
-        <h1>Sign Up</h1>
-        <form>
-          <label htmlFor="username">Name:</label>
-          <input type="text" id="username" placeholder="Enter full name" name="username" required />
+            <div className="container">
+                <h1>Sign Up</h1>
+                <form>
+                    <label htmlFor="username">Name:</label>
+                    <input type="text" id="username" placeholder="Enter full name" name="username" required />
 
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" required />
+                    <label htmlFor="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
 
-          <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" required />
+                    <label htmlFor="password">Password:</label>
+                    <input type="password" id="password" name="password" required />
 
-          <label htmlFor="confirm-password">Confirm Password:</label>
-          <input type="password" id="confirm-password" name="confirm-password" required />
+                    <label htmlFor="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required />
 
-          <Link href="/" className="submit-button">
-            Sign Up
-          </Link>
-          <br />
-          <Link href="/login" className="login_g">
-            Already signed up?
-          </Link>
-        </form>
-      </div>
-    </>
-  );
+                    <Link href="/" className="submit-button">
+                        Sign Up
+                    </Link>
+                    <br />
+                    <Link href="/login" className="login_g">
+                        Already signed up?
+                    </Link>
+                </form>
+            </div>
+        </>
+    );
 }

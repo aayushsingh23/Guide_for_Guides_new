@@ -3,9 +3,9 @@
 import Link from "next/link";
 
 export default function SignupGuide() {
-  return (
-    <>
-      <style jsx>{`
+    return (
+        <>
+            <style jsx>{`
         body {
           font-family: Arial, sans-serif;
           background-color: #f2f2f2;
@@ -68,26 +68,26 @@ export default function SignupGuide() {
         }
       `}</style>
 
-      <div className="container">
-        <h1>Join the platform as a Guide</h1>
-        <form>
-          <label htmlFor="Full Name">Name:</label>
-          <input type="text" id="username" placeholder="Enter full name" name="username" required />
+            <div className="container">
+                <h1>Join the platform as a Guide</h1>
+                <form>
+                    <label htmlFor="Full Name">Name:</label>
+                    <input type="text" id="username" placeholder="Enter full name" name="username" required />
 
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" placeholder="Enter your work email" name="email" required />
+                    <label htmlFor="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your work email" name="email" required />
 
-          <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" placeholder="Enter desired password" required />
+                    <label htmlFor="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter desired password" required />
 
-          <label htmlFor="confirm-password">Confirm Password:</label>
-          <input type="password" id="confirm-password" name="confirm-password" required />
+                    <label htmlFor="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required />
 
-          <Link href="/" className="submit-button">
-            JOIN
-          </Link>
-        </form>
-      </div>
-    </>
-  );
+                    <Link href="/" className="submit-button">
+                        JOIN
+                    </Link>
+                </form>
+            </div>
+        </>
+    );
 }

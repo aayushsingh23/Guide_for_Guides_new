@@ -3,9 +3,9 @@
 import Link from "next/link";
 
 export default function Login() {
-  return (
-    <>
-      <style jsx>{`
+    return (
+        <>
+            <style jsx>{`
         body {
           font-family: Arial, sans-serif;
           background-color: #f2f2f2;
@@ -68,20 +68,20 @@ export default function Login() {
         }
       `}</style>
 
-      <div className="container">
-        <h1>Login</h1>
-        <form>
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" required />
+            <div className="container">
+                <h1>Login</h1>
+                <form>
+                    <label htmlFor="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
 
-          <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" required />
+                    <label htmlFor="password">Password:</label>
+                    <input type="password" id="password" name="password" required />
 
-          <Link href="/" className="submit-button">
-            Login
-          </Link>
-        </form>
-      </div>
-    </>
-  );
+                    <Link href="/" className="submit-button">
+                        Login
+                    </Link>
+                </form>
+            </div>
+        </>
+    );
 }

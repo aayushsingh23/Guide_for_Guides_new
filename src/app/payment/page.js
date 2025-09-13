@@ -4,9 +4,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Payment() {
-  return (
-    <>
-      <style jsx>{`
+    return (
+        <>
+            <style jsx>{`
         .form_form {
           text-align: center;
           margin-top: 50px;
@@ -58,37 +58,37 @@ export default function Payment() {
         }
       `}</style>
 
-      <div className="logo-container">
-        <Link href="/">
-          <Image src="/logo.jpg" alt="logo" width={200} height={150} />
-        </Link>
-      </div>
+            <div className="logo-container">
+                <Link href="/">
+                    <Image src="/logo.jpg" alt="logo" width={200} height={150} />
+                </Link>
+            </div>
 
-      <div className="payment-container">
-        <h1>Payment Gateway</h1>
-        <div className="form_form">
-          <form>
-            <input 
-              type="text" 
-              name="name" 
-              placeholder="Enter Name" 
-              required 
-            />
-            <input 
-              type="email" 
-              name="email" 
-              placeholder="Enter Email" 
-              required 
-            />
-            <button 
-              type="submit" 
-              className="pay-button"
-            >
-              Pay Now ₹5
-            </button>
-          </form>
-        </div>
-      </div>
-    </>
-  );
+            <div className="payment-container">
+                <h1>Payment Gateway</h1>
+                <div className="form_form">
+                    <form>
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Enter Name"
+                            required
+                        />
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Enter Email"
+                            required
+                        />
+                        <button
+                            type="submit"
+                            className="pay-button"
+                        >
+                            Pay Now ₹5
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </>
+    );
 }

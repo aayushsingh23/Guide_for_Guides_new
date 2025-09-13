@@ -99,7 +99,7 @@ export default function Home() {
           <div className="testimony-parent">
             <div className="testtim-child">
               <div className="testimony">
-                &quot;At Guide For Guides, we understand that travel is a personal and transformative experience. 
+                &quot;At Guide For Guides, we understand that travel is a personal and transformative experience.
                 That&apos;s why we go the extra mile to ensure that every trip is seamless, safe, and tailored to our client&apos;s needs.&quot;
               </div>
             </div>
@@ -113,8 +113,8 @@ export default function Home() {
             <h1 id="About-us" className="content-head">Explore Our Project</h1>
             <div className="text-content-parent">
               <div className="content-txt">
-                &quot;Dive into this hassle-free vision of travel. Have a look at the catalogue of highly experienced expert travel guides 
-                and cut short on the stresses of traversing in an unknown land. Let us guide you to guides that aid your experience 
+                &quot;Dive into this hassle-free vision of travel. Have a look at the catalogue of highly experienced expert travel guides
+                and cut short on the stresses of traversing in an unknown land. Let us guide you to guides that aid your experience
                 on your next dream vacation.&quot;
               </div>
             </div>
@@ -140,10 +140,10 @@ export default function Home() {
               <div className="left">
                 <h1 className="content-head">Who are we and What do we do?</h1>
                 <div className="content-txt">
-                  Guide For Guide is a dynamic and innovative travel guide company that is dedicated to helping travelers by 
-                  carefully finding them a travel guide that caters to our customers and lets them experience the world&apos;s most 
-                  captivating destinations. Our travel guides provide comprehensive and personalized itineraries that ensure 
-                  unforgettable journeys. They are carefully crafted to provide travelers with authentic and local experiences, 
+                  Guide For Guide is a dynamic and innovative travel guide company that is dedicated to helping travelers by
+                  carefully finding them a travel guide that caters to our customers and lets them experience the world&apos;s most
+                  captivating destinations. Our travel guides provide comprehensive and personalized itineraries that ensure
+                  unforgettable journeys. They are carefully crafted to provide travelers with authentic and local experiences,
                   allowing them to truly connect with the people, culture, and natural beauty of each destination.
                 </div>
               </div>
@@ -270,15 +270,15 @@ export default function Home() {
         <div className="text-block-2">
           <strong>Q1). How much does it cost to hire a travel guide from your company?<br /><br /></strong>
           <span>
-            A: Our pricing depends on various factors such as the destination, duration of the trip, number of travelers, 
-            and specific services requested. Please contact our customer service team or refer to our website for detailed 
+            A: Our pricing depends on various factors such as the destination, duration of the trip, number of travelers,
+            and specific services requested. Please contact our customer service team or refer to our website for detailed
             pricing information.<br /><br />
             <strong>Q2). Are your travel guides local experts?<br /><br /></strong>
-            A: Yes, our travel guides are local experts with in-depth knowledge of the destinations they cover. 
-            They are trained professionals who are passionate about travel and have extensive experience in guiding 
+            A: Yes, our travel guides are local experts with in-depth knowledge of the destinations they cover.
+            They are trained professionals who are passionate about travel and have extensive experience in guiding
             travelers to make the most of their trip.<br /><br />
             <strong>Q3). What is your cancellation and refund policy?<br /><br /></strong>
-            A: Our cancellation and refund policy may vary depending on the type of service and destination. 
+            A: Our cancellation and refund policy may vary depending on the type of service and destination.
             Please refer to our terms and conditions or contact our customer service team for detailed information.
           </span>
         </div>

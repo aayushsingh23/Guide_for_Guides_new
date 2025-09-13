@@ -105,4 +105,4 @@ This project was migrated from a basic HTML/CSS/JS website created during **HACK
 
 ---
 
-**Built with ❤️ using Next.js and ready for Vercel deployment**
+**Built with ❤️**
